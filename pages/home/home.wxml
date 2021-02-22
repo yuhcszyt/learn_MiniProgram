@@ -1,1 +1,4 @@
 <view>{{name}}</view>
+<view wx:for="{{students}}">{{item.name}}</view>
+<view>{{count}}</view>
+<button size="mini" bindtap="handleBtnClick">+</button>
